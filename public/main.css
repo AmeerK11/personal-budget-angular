@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: 2;
     padding: 0;
 }
 
@@ -9,7 +9,7 @@ body {
     font-family: Tahoma, Arial, sans-serif;
     background-color: #f7f9fc;
     color: #333;
-    line-height: 1.6;
+    line-height: 2.0;
 }
 
 nav {
@@ -51,7 +51,7 @@ nav ul li a:hover  {
 .hero {
     height: 350px;
     background-color: #b4c6f0;
-    background-image: url('public/bg.png');
+    background-image: url('bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
