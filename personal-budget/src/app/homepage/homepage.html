@@ -1,5 +1,5 @@
 <main class="center" id="maincontent">
-
+    <app-breadcrumbs></app-breadcrumbs>
     <div class="page-area">
 
       <pb-article>
@@ -34,13 +34,10 @@
           </p>
       </pb-article>
 
-      <h1>Chart</h1>
-      <p>Budget distribution chart:</p>
-      <canvas #myChart width="400" height="400"></canvas>
+      <h2>Budget Charts</h2>
+      <canvas #myChart width="300" height="300"></canvas>
 
-
-      <h1>D3JS Chart</h1>
-      <svg id="d3Chart" width="400" height="400"></svg>
+      <div #d3Chart style="width:400px; height:400px; margin-top:20px;"></div>
 
     </div>
 
